@@ -1,0 +1,18 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello", "hi", "good day", "greetings", "what's up?", "how is it going?"],
+    "responses": ["Hello!", "What can I do for you?", "Hey!", "Howdy!", "Welcome!"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["bye", "cya", "take care", "goodbye", "i am leaving", "have a good day", "cao", "see ya"],
+    "responses": ["It was great chatting to you!", "See you again soon.", "Goodbye!", "Talk to you again!"]
+    },
+    {"tag": "age",
+    "patterns": ["your age?", "how old?", "what is your age?", "When is your birthday?", "how old are you?", "age?", "your birthday?"],
+    "responses": ["I was born on 14/03/2024, I'm currently 0 years and 0 months old."]
+    },
+    {"tag": "name",
+    "patterns": ["What is your name?", "name?", "what should i call you?", "who are you?", "can you tell me your name?", "do you have a name?"],
+    "responses": ["My name is Daniel. What is your name?", "My name is Daniel.", "You can call me Daniel.", "Some people call me Daniel or Dani for short."]
+    }
+]}
